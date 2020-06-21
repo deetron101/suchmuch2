@@ -1,7 +1,7 @@
 <svelte:head>
-	<title>About</title>
+	<title>Sign Up</title>
 </svelte:head>
 
-<h1 class="h1">About</h1>
+<h1 class="h1">Sign Up</h1>
 
 <p>This is a page</p>

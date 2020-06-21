@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+
+.h1 {
+    @apply text-lg text-brown leading-relaxed pb-8;
+}
+
+.btn {
+    @apply text-sm font-bold py-4 px-8 rounded-full;
+}
+
+.btn-peach {
+    @apply bg-peach font-bold text-white;
+}
+
+.btn-peach:hover {
+    @apply bg-brown
+}
+
+.btn-link {
+    @apply text-sm font-bold px-4 text-brown
+}
+
+@tailwind utilities;

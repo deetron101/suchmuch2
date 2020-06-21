@@ -2,7 +2,7 @@
 @tailwind components;
 
 .h1 {
-    @apply text-lg text-brown leading-relaxed pb-8;
+    @apply text-lg text-brown leading-relaxed pb-32;
 }
 
 .btn {
@@ -14,11 +14,11 @@
 }
 
 .btn-peach:hover {
-    @apply bg-brown
+    @apply bg-brown;
 }
 
 .btn-link {
-    @apply text-sm font-bold px-4 text-brown
+    @apply text-sm font-bold px-4 text-brown;
 }
 
 @tailwind utilities;

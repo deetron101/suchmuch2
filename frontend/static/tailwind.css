@@ -1,4 +1,21 @@
 @tailwind base;
+
+main {
+    @apply mx-16;
+}
+
+nav {
+    @apply mx-16;
+}
+
+a {
+    @apply text-brown font-medium text-base no-underline;
+}
+
+li {
+    @apply block float-left;
+}
+
 @tailwind components;
 
 .title {
@@ -10,7 +27,7 @@
 }
 
 .card {
-    @apply max-w-4xl rounded-lg shadow px-10 py-12 mb-8;
+    @apply max-w-4xl rounded-lg shadow px-10 py-12 mb-8 bg-light-peach;
 }
 
 .h2 {

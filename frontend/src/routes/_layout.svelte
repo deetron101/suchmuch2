@@ -8,8 +8,6 @@
 	main {
 		position: relative;
 		background-color: white;
-		padding: 2em;
-		margin: 0;
 		box-sizing: border-box;
 	}
 </style>

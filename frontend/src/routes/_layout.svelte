@@ -6,6 +6,7 @@
 
 <style>
 	main {
+		padding: 3em 3em;
 		position: relative;
 		background-color: white;
 		box-sizing: border-box;

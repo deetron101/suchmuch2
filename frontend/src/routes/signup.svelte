@@ -2,6 +2,6 @@
 	<title>Sign Up</title>
 </svelte:head>
 
-<h1 class="h1">Sign Up</h1>
-
-<p>This is a page</p>
+<div class="mx-auto max-w-md mb-16">
+	<h1 class="text-xl text-brown leading-relaxed py-12">Sign Up</h1>
+</div>

@@ -14,7 +14,7 @@
 
 <nav class="pt-16 px-16">
 	<ul>
-		<NavItem segment page="." slug="">
+		<NavItem segment page="" slug="">
 			<img alt="Skeen logo" src="logo.svg"/>
 		</NavItem>
 		<NavItem segment page="Features" slug="features"/>

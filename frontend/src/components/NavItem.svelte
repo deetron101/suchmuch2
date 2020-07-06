@@ -7,8 +7,8 @@
 <style>
 </style>
 
-<li class="inline-block mr-16">
-	<a class="block text-brown font-medium text-xs no-underline" aria-current="{segment === slug ? 'page' : undefined}" href="{slug}">
+<li class="inline-block float-left mr-16">
+	<a class="block py-2 px-4 text-brown font-medium text-xs no-underline" aria-current="{segment === slug ? 'page' : undefined}" href="{slug}">
 		{page}
 		<slot></slot>
 	</a>

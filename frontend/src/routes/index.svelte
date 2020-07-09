@@ -1,9 +1,9 @@
 <script>
   import Button from '../components/Button.svelte';
   import Card from '../components/Card.svelte';
-  const cards = [
+  const items = [
   {
-    col_span: "col-span-4",
+    col_span: "col-span-6 lg:col-span-4 xl:col-span-4",
     title: "Skin",
     subtitle: "Tell us about your skin and what it needs",
     subtitle_width: "w-40",
@@ -12,12 +12,12 @@
     }
   },
   {
-    col_span: "col-span-3",
+    col_span: "col-span-6 lg:col-span-3 xl:col-span-3",
     title: "Products",
     subtitle: "Choose products you already use to find new effective products"
   },
   {
-    col_span: "col-span-3",
+    col_span: "col-span-6 lg:col-span-3 xl:col-span-3",
     title: "Routines",
     subtitle: "Find routines that work for you and your skin"
   }
@@ -38,7 +38,7 @@
 </div>
 
 <div class="grid grid-cols-6 gap-8">
-{#each cards as card}
-  <Card {...card} />
+{#each items as item}
+  <Card {...item} />
 {/each}
 </div>

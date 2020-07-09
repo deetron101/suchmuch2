@@ -1,6 +1,6 @@
 <script>
   import Button from '../components/Button.svelte';
-  export let col_span = "col-span-1";
+  export let col_span = "col-span-6";
   export let title = "title";
   export let subtitle = "subtitle";
   export let subtitle_width = "w-56";

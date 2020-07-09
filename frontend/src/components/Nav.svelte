@@ -1,26 +1,40 @@
 <script>
 	import NavItem from '../components/NavItem.svelte';
+	const navItems = [
+	{
+		page: "Features",
+		slug: "features"
+	},
+	{
+		page: "Technology",
+		slug: "technology"
+	},
+	{
+		page: "About",
+		slug: "about"
+	},
+	{
+		page: "Sign in",
+		slug: "signin"
+	},
+	{
+		page: "Sign up",
+		slug: "signup",
+		style: "bg-light-peach rounded-full"
+	}
+];
 </script>
 
 <style>
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
 </style>
 
-<nav class="pt-16 px-16">
-	<ul>
-		<NavItem segment page="" slug="">
+<nav class="pt-16 px-8">
+	<ul class="flex flex-wrap flex-row">
+		<NavItem segment page="" slug="/">
 			<img alt="Skeen logo" src="logo.svg"/>
 		</NavItem>
-		<NavItem segment page="Features" slug="features"/>
-		<NavItem segment page="Technology" slug="technology"/>
-		<NavItem segment page="About" slug="about"/>
-		<NavItem segment page="Sign in" slug="signin"/>
-		<NavItem segment page="Sign up" slug="signup"/>
+		{#each navItems as navItem}
+		  	<NavItem segment {...navItem} />
+		{/each}
 	</ul>
 </nav>

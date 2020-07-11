@@ -11,7 +11,8 @@
 	},
 	{
 		page: "About",
-		slug: "about"
+		slug: "about",
+		outer_style: "flex-1"
 	},
 	{
 		page: "Sign in",
@@ -20,7 +21,7 @@
 	{
 		page: "Sign up",
 		slug: "signup",
-		style: "bg-light-peach rounded-full"
+		inner_style: "bg-light-peach rounded-full"
 	}
 ];
 </script>
@@ -29,7 +30,7 @@
 </style>
 
 <nav class="pt-16 px-8">
-	<ul class="flex flex-wrap flex-row">
+	<ul class="flex flex-wrap">
 		<NavItem segment page="" slug="/">
 			<img alt="Skeen logo" src="logo.svg"/>
 		</NavItem>

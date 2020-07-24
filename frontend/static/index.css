@@ -7716,6 +7716,10 @@ video {
   min-width: 100%;
 }
 
+.min-w-2\/3 {
+  min-width: 66%;
+}
+
 .object-contain {
   object-fit: contain;
 }
@@ -21662,6 +21666,10 @@ video {
 
   .sm\:min-w-full {
     min-width: 100%;
+  }
+
+  .sm\:min-w-2\/3 {
+    min-width: 66%;
   }
 
   .sm\:object-contain {
@@ -35613,6 +35621,10 @@ video {
     min-width: 100%;
   }
 
+  .md\:min-w-2\/3 {
+    min-width: 66%;
+  }
+
   .md\:object-contain {
     object-fit: contain;
   }
@@ -49562,6 +49574,10 @@ video {
     min-width: 100%;
   }
 
+  .lg\:min-w-2\/3 {
+    min-width: 66%;
+  }
+
   .lg\:object-contain {
     object-fit: contain;
   }
@@ -63509,6 +63525,10 @@ video {
 
   .xl\:min-w-full {
     min-width: 100%;
+  }
+
+  .xl\:min-w-2\/3 {
+    min-width: 66%;
   }
 
   .xl\:object-contain {

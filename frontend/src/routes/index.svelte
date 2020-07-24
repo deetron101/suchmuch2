@@ -3,23 +3,23 @@
   import Card from '../components/Card.svelte';
   const items = [
   {
-    col_span: "col-span-6 lg:col-span-4 xl:col-span-4",
     title: "Skin",
     subtitle: "Tell us about your skin and what it needs",
     subtitle_width: "w-40",
     button: {
       label: "Start with the skin quiz"
-    }
+    },
+    style: ""
   },
   {
-    col_span: "col-span-6 lg:col-span-3 xl:col-span-3",
     title: "Products",
-    subtitle: "Choose products you already use to find new effective products"
+    subtitle: "Choose products you already use to find new effective products",
+    style: "flex-1"
   },
   {
-    col_span: "col-span-6 lg:col-span-3 xl:col-span-3",
     title: "Routines",
-    subtitle: "Find routines that work for you and your skin"
+    subtitle: "Find routines that work for you and your skin",
+    style: "flex-1"
   }
 ];
 </script>
@@ -37,8 +37,11 @@
   <a class="text-sm font-bold px-8 text-brown" href="features">Learn more</a>
 </div>
 
-<div class="grid grid-cols-6 gap-8">
-{#each items as item}
-  <Card {...item} />
-{/each}
+<div class="my-8 xs:w-full sm:w-full min-w-2/3">
+  <Card {...items[0]} />
+</div>
+
+<div class="flex flex-wrap">
+<Card {...items[1]} />
+<Card {...items[2]} />
 </div>

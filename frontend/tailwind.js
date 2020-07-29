@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         'brown': '#703826',
-        'peach': '#f4bead',
+        'peach': '#fee3da',
         'light-peach': '#fffaf9'
       },
       minWidth: {

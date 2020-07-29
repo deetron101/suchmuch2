@@ -1731,8 +1731,8 @@ code {
 
 .divide-peach > :not(template) ~ :not(template) {
   --divide-opacity: 1;
-  border-color: #f4bead;
-  border-color: rgba(244, 190, 173, var(--divide-opacity));
+  border-color: #fee3da;
+  border-color: rgba(254, 227, 218, var(--divide-opacity));
 }
 
 .divide-light-peach > :not(template) ~ :not(template) {
@@ -2391,8 +2391,8 @@ code {
 
 .bg-peach {
   --bg-opacity: 1;
-  background-color: #f4bead;
-  background-color: rgba(244, 190, 173, var(--bg-opacity));
+  background-color: #fee3da;
+  background-color: rgba(254, 227, 218, var(--bg-opacity));
 }
 
 .bg-light-peach {
@@ -2969,8 +2969,8 @@ code {
 
 .hover\:bg-peach:hover {
   --bg-opacity: 1;
-  background-color: #f4bead;
-  background-color: rgba(244, 190, 173, var(--bg-opacity));
+  background-color: #fee3da;
+  background-color: rgba(254, 227, 218, var(--bg-opacity));
 }
 
 .hover\:bg-light-peach:hover {
@@ -3547,8 +3547,8 @@ code {
 
 .focus\:bg-peach:focus {
   --bg-opacity: 1;
-  background-color: #f4bead;
-  background-color: rgba(244, 190, 173, var(--bg-opacity));
+  background-color: #fee3da;
+  background-color: rgba(254, 227, 218, var(--bg-opacity));
 }
 
 .focus\:bg-light-peach:focus {
@@ -4265,8 +4265,8 @@ code {
 
 .border-peach {
   --border-opacity: 1;
-  border-color: #f4bead;
-  border-color: rgba(244, 190, 173, var(--border-opacity));
+  border-color: #fee3da;
+  border-color: rgba(254, 227, 218, var(--border-opacity));
 }
 
 .border-light-peach {
@@ -4843,8 +4843,8 @@ code {
 
 .hover\:border-peach:hover {
   --border-opacity: 1;
-  border-color: #f4bead;
-  border-color: rgba(244, 190, 173, var(--border-opacity));
+  border-color: #fee3da;
+  border-color: rgba(254, 227, 218, var(--border-opacity));
 }
 
 .hover\:border-light-peach:hover {
@@ -5421,8 +5421,8 @@ code {
 
 .focus\:border-peach:focus {
   --border-opacity: 1;
-  border-color: #f4bead;
-  border-color: rgba(244, 190, 173, var(--border-opacity));
+  border-color: #fee3da;
+  border-color: rgba(254, 227, 218, var(--border-opacity));
 }
 
 .focus\:border-light-peach:focus {
@@ -9075,8 +9075,8 @@ code {
 
 .placeholder-peach::placeholder {
   --placeholder-opacity: 1;
-  color: #f4bead;
-  color: rgba(244, 190, 173, var(--placeholder-opacity));
+  color: #fee3da;
+  color: rgba(254, 227, 218, var(--placeholder-opacity));
 }
 
 .placeholder-light-peach::placeholder {
@@ -9653,8 +9653,8 @@ code {
 
 .focus\:placeholder-peach:focus::placeholder {
   --placeholder-opacity: 1;
-  color: #f4bead;
-  color: rgba(244, 190, 173, var(--placeholder-opacity));
+  color: #fee3da;
+  color: rgba(254, 227, 218, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-light-peach:focus::placeholder {
@@ -10545,8 +10545,8 @@ code {
 
 .text-peach {
   --text-opacity: 1;
-  color: #f4bead;
-  color: rgba(244, 190, 173, var(--text-opacity));
+  color: #fee3da;
+  color: rgba(254, 227, 218, var(--text-opacity));
 }
 
 .text-light-peach {
@@ -11123,8 +11123,8 @@ code {
 
 .hover\:text-peach:hover {
   --text-opacity: 1;
-  color: #f4bead;
-  color: rgba(244, 190, 173, var(--text-opacity));
+  color: #fee3da;
+  color: rgba(254, 227, 218, var(--text-opacity));
 }
 
 .hover\:text-light-peach:hover {
@@ -11701,8 +11701,8 @@ code {
 
 .focus\:text-peach:focus {
   --text-opacity: 1;
-  color: #f4bead;
-  color: rgba(244, 190, 173, var(--text-opacity));
+  color: #fee3da;
+  color: rgba(254, 227, 218, var(--text-opacity));
 }
 
 .focus\:text-light-peach:focus {
@@ -15683,8 +15683,8 @@ code {
 
   .sm\:divide-peach > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--divide-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--divide-opacity));
   }
 
   .sm\:divide-light-peach > :not(template) ~ :not(template) {
@@ -16343,8 +16343,8 @@ code {
 
   .sm\:bg-peach {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .sm\:bg-light-peach {
@@ -16921,8 +16921,8 @@ code {
 
   .sm\:hover\:bg-peach:hover {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-light-peach:hover {
@@ -17499,8 +17499,8 @@ code {
 
   .sm\:focus\:bg-peach:focus {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-light-peach:focus {
@@ -18217,8 +18217,8 @@ code {
 
   .sm\:border-peach {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .sm\:border-light-peach {
@@ -18795,8 +18795,8 @@ code {
 
   .sm\:hover\:border-peach:hover {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .sm\:hover\:border-light-peach:hover {
@@ -19373,8 +19373,8 @@ code {
 
   .sm\:focus\:border-peach:focus {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .sm\:focus\:border-light-peach:focus {
@@ -23027,8 +23027,8 @@ code {
 
   .sm\:placeholder-peach::placeholder {
     --placeholder-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--placeholder-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--placeholder-opacity));
   }
 
   .sm\:placeholder-light-peach::placeholder {
@@ -23605,8 +23605,8 @@ code {
 
   .sm\:focus\:placeholder-peach:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--placeholder-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-light-peach:focus::placeholder {
@@ -24497,8 +24497,8 @@ code {
 
   .sm\:text-peach {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .sm\:text-light-peach {
@@ -25075,8 +25075,8 @@ code {
 
   .sm\:hover\:text-peach:hover {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .sm\:hover\:text-light-peach:hover {
@@ -25653,8 +25653,8 @@ code {
 
   .sm\:focus\:text-peach:focus {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .sm\:focus\:text-light-peach:focus {
@@ -29636,8 +29636,8 @@ code {
 
   .md\:divide-peach > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--divide-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--divide-opacity));
   }
 
   .md\:divide-light-peach > :not(template) ~ :not(template) {
@@ -30296,8 +30296,8 @@ code {
 
   .md\:bg-peach {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .md\:bg-light-peach {
@@ -30874,8 +30874,8 @@ code {
 
   .md\:hover\:bg-peach:hover {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .md\:hover\:bg-light-peach:hover {
@@ -31452,8 +31452,8 @@ code {
 
   .md\:focus\:bg-peach:focus {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .md\:focus\:bg-light-peach:focus {
@@ -32170,8 +32170,8 @@ code {
 
   .md\:border-peach {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .md\:border-light-peach {
@@ -32748,8 +32748,8 @@ code {
 
   .md\:hover\:border-peach:hover {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .md\:hover\:border-light-peach:hover {
@@ -33326,8 +33326,8 @@ code {
 
   .md\:focus\:border-peach:focus {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .md\:focus\:border-light-peach:focus {
@@ -36980,8 +36980,8 @@ code {
 
   .md\:placeholder-peach::placeholder {
     --placeholder-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--placeholder-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--placeholder-opacity));
   }
 
   .md\:placeholder-light-peach::placeholder {
@@ -37558,8 +37558,8 @@ code {
 
   .md\:focus\:placeholder-peach:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--placeholder-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-light-peach:focus::placeholder {
@@ -38450,8 +38450,8 @@ code {
 
   .md\:text-peach {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .md\:text-light-peach {
@@ -39028,8 +39028,8 @@ code {
 
   .md\:hover\:text-peach:hover {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .md\:hover\:text-light-peach:hover {
@@ -39606,8 +39606,8 @@ code {
 
   .md\:focus\:text-peach:focus {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .md\:focus\:text-light-peach:focus {
@@ -43589,8 +43589,8 @@ code {
 
   .lg\:divide-peach > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--divide-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--divide-opacity));
   }
 
   .lg\:divide-light-peach > :not(template) ~ :not(template) {
@@ -44249,8 +44249,8 @@ code {
 
   .lg\:bg-peach {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .lg\:bg-light-peach {
@@ -44827,8 +44827,8 @@ code {
 
   .lg\:hover\:bg-peach:hover {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-light-peach:hover {
@@ -45405,8 +45405,8 @@ code {
 
   .lg\:focus\:bg-peach:focus {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-light-peach:focus {
@@ -46123,8 +46123,8 @@ code {
 
   .lg\:border-peach {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .lg\:border-light-peach {
@@ -46701,8 +46701,8 @@ code {
 
   .lg\:hover\:border-peach:hover {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .lg\:hover\:border-light-peach:hover {
@@ -47279,8 +47279,8 @@ code {
 
   .lg\:focus\:border-peach:focus {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .lg\:focus\:border-light-peach:focus {
@@ -50933,8 +50933,8 @@ code {
 
   .lg\:placeholder-peach::placeholder {
     --placeholder-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--placeholder-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--placeholder-opacity));
   }
 
   .lg\:placeholder-light-peach::placeholder {
@@ -51511,8 +51511,8 @@ code {
 
   .lg\:focus\:placeholder-peach:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--placeholder-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-light-peach:focus::placeholder {
@@ -52403,8 +52403,8 @@ code {
 
   .lg\:text-peach {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .lg\:text-light-peach {
@@ -52981,8 +52981,8 @@ code {
 
   .lg\:hover\:text-peach:hover {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .lg\:hover\:text-light-peach:hover {
@@ -53559,8 +53559,8 @@ code {
 
   .lg\:focus\:text-peach:focus {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .lg\:focus\:text-light-peach:focus {
@@ -57542,8 +57542,8 @@ code {
 
   .xl\:divide-peach > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--divide-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--divide-opacity));
   }
 
   .xl\:divide-light-peach > :not(template) ~ :not(template) {
@@ -58202,8 +58202,8 @@ code {
 
   .xl\:bg-peach {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .xl\:bg-light-peach {
@@ -58780,8 +58780,8 @@ code {
 
   .xl\:hover\:bg-peach:hover {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-light-peach:hover {
@@ -59358,8 +59358,8 @@ code {
 
   .xl\:focus\:bg-peach:focus {
     --bg-opacity: 1;
-    background-color: #f4bead;
-    background-color: rgba(244, 190, 173, var(--bg-opacity));
+    background-color: #fee3da;
+    background-color: rgba(254, 227, 218, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-light-peach:focus {
@@ -60076,8 +60076,8 @@ code {
 
   .xl\:border-peach {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .xl\:border-light-peach {
@@ -60654,8 +60654,8 @@ code {
 
   .xl\:hover\:border-peach:hover {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .xl\:hover\:border-light-peach:hover {
@@ -61232,8 +61232,8 @@ code {
 
   .xl\:focus\:border-peach:focus {
     --border-opacity: 1;
-    border-color: #f4bead;
-    border-color: rgba(244, 190, 173, var(--border-opacity));
+    border-color: #fee3da;
+    border-color: rgba(254, 227, 218, var(--border-opacity));
   }
 
   .xl\:focus\:border-light-peach:focus {
@@ -64886,8 +64886,8 @@ code {
 
   .xl\:placeholder-peach::placeholder {
     --placeholder-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--placeholder-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--placeholder-opacity));
   }
 
   .xl\:placeholder-light-peach::placeholder {
@@ -65464,8 +65464,8 @@ code {
 
   .xl\:focus\:placeholder-peach:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--placeholder-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-light-peach:focus::placeholder {
@@ -66356,8 +66356,8 @@ code {
 
   .xl\:text-peach {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .xl\:text-light-peach {
@@ -66934,8 +66934,8 @@ code {
 
   .xl\:hover\:text-peach:hover {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .xl\:hover\:text-light-peach:hover {
@@ -67512,8 +67512,8 @@ code {
 
   .xl\:focus\:text-peach:focus {
     --text-opacity: 1;
-    color: #f4bead;
-    color: rgba(244, 190, 173, var(--text-opacity));
+    color: #fee3da;
+    color: rgba(254, 227, 218, var(--text-opacity));
   }
 
   .xl\:focus\:text-light-peach:focus {

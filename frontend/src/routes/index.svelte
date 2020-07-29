@@ -31,10 +31,9 @@
 	<title>Skeen</title>
 </svelte:head>
 
-<div class="mx-auto max-w-md mb-16">
-  <h1 class="text-xl text-brown leading-relaxed py-12">Skeen suggests skincare products and routines based on your personal skin profile</h1>
-  <Button label='Start with the skin quiz'/>
-  <a class="text-sm font-bold px-8 text-brown" href="features">Learn more</a>
+<div class="bg-peach bg-no-repeat bg-right pt-16 pb-40" style="background-image: url(stephanie-harvey-T0inbt7nRME-unsplash.png)">
+  <h1 class="text-5xl text-brown text-center font-bold font-serif pb-2">Personalized skincare products search</h1>
+  <p class="text-xl text-brown text-center">Navigate the sea of skincare information</p>
 </div>
 
 <div class="my-8 xs:w-full sm:w-full min-w-2/3">

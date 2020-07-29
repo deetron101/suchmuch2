@@ -4,14 +4,9 @@
 </script>
 
 <style>
-	main {
-		padding: 3em 3em;
-		position: relative;
-		box-sizing: border-box;
-	}
 </style>
 
-<div style="background-image: url(background.svg); background-repeat: no-repeat; background-size: cover;">
+<div>
 	<Nav {segment}/>
 	<main>
 		<slot></slot>

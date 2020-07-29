@@ -2,8 +2,8 @@
 	import NavItem from '../components/NavItem.svelte';
 	const navItems = [
 	{
-		page: "Features",
-		slug: "features"
+		page: "Mission",
+		slug: "mission"
 	},
 	{
 		page: "Technology",
@@ -11,17 +11,11 @@
 	},
 	{
 		page: "About",
-		slug: "about",
-		outer_style: "flex-1"
+		slug: "about"
 	},
 	{
-		page: "Sign in",
-		slug: "signin"
-	},
-	{
-		page: "Sign up",
-		slug: "signup",
-		inner_style: "bg-light-peach rounded-full"
+		page: "Contact Us",
+		slug: "contact"
 	}
 ];
 </script>
@@ -29,11 +23,13 @@
 <style>
 </style>
 
-<nav class="pt-16 px-8">
-	<ul class="flex flex-wrap">
-		<NavItem segment page="" slug="/">
-			<img alt="Skeen logo" src="logo.svg"/>
-		</NavItem>
+<nav class="pt-24 px-8">
+	<div class="flex justify-center">
+		<a class="p-4" href="/">
+			<img class="h-8" alt="Skeen logo" src="logo.svg"/>
+		</a>
+	</div>
+	<ul class="flex flex-wrap justify-center pt-20 pb-8">
 		{#each navItems as navItem}
 		  	<NavItem segment {...navItem} />
 		{/each}

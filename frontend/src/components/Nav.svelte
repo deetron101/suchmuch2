@@ -1,5 +1,6 @@
 <script>
 	import NavItem from '../components/NavItem.svelte';
+
 	const navItems = [
 	{
 		page: "Mission",
@@ -29,7 +30,7 @@
 			<img class="h-8" alt="Skeen logo" src="logo.svg"/>
 		</a>
 	</div>
-	<ul class="flex flex-wrap justify-center pt-20 pb-8">
+	<ul class="flex flex-wrap justify-center pt-20 pb-10">
 		{#each navItems as navItem}
 		  	<NavItem segment {...navItem} />
 		{/each}

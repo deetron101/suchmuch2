@@ -11,7 +11,7 @@
 	<title>Skeen</title>
 </svelte:head>
 
-<div class="bg-peach bg-no-repeat bg-right pt-16" style="height: 356px; background-image: url(images/stephanie-harvey-T0inbt7nRME-unsplash.png)">
+<div class="bg-peach bg-no-repeat bg-right pt-16" style="height: 356px;">
   <h1 class="text-5xl text-center font-serif pb-8">Personalized skincare products search</h1>
   <p class="text-2xl text-center">Navigate the sea of skincare information</p>
 </div>

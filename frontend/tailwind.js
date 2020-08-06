@@ -7,8 +7,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        'brown': '#703826',
-        'peach': '#fee3da'
+        'primary-blue': '#3250B9',
+        'light-blue': '#5B72C5',
+        'light-peach': '#FFF5F1',
+        'blue-green': '#1071bf'
       },
       minWidth: {
         '2/3': '66%'

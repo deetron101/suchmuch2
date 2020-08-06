@@ -6,7 +6,7 @@
 <style>
 </style>
 
-<div class="text-m text-brown font-sans tracking-wide">
+<div class="bg-light-peach text-md text-primary-blue font-sans tracking-wide">
 	<Nav {segment}/>
 	<main>
 		<slot></slot>

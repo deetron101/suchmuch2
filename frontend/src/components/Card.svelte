@@ -7,7 +7,7 @@
 <style>
 </style>
 
-<div class="border-solid border-2 border-peach relative mb-8">
+<div class="border-solid border-2 border-primary-blue relative mb-8">
     <img src="{bg_image}" alt="{title}"/>
-    <h2 class="text-brown text-3xl font-bold serif text-center absolute w-full -mt-16">{title}</h2>
+    <h2 class="text-primary-blue text-3xl font-bold serif text-center absolute w-full -mt-16">{title}</h2>
 </div>

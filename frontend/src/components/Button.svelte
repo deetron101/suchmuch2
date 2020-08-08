@@ -1,9 +1,10 @@
 <script>
-    export let bg_color = "bg-primary-blue";
+    export let bgcolor = "bg-primary-blue hover:bg-light-blue focus:bg-light-blue";
     export let label;
+    export let style = "flex-1";
 </script>
 
 <style>
 </style>
 
-<button class="{bg_color} text-xs font-bold text-white py-4 px-12 rounded-full">{label}</button>
+<button class="{bgcolor} {style} font-bold text-md text-white py-5 rounded-full">{label}</button>

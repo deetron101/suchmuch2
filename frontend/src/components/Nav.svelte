@@ -1,5 +1,6 @@
 <script>
 	import NavItem from '../components/NavItem.svelte';
+	export let segment;
 
 	const navItems = [
 	{
@@ -32,7 +33,7 @@
 	</div>
 	<ul class="flex flex-wrap justify-center pt-20 pb-10">
 		{#each navItems as navItem}
-		  	<NavItem segment {...navItem} />
+		  	<NavItem {segment} page={navItem.page} slug={navItem.slug}  />
 		{/each}
 	</ul>
 </nav>

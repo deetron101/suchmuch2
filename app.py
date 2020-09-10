@@ -1,6 +1,8 @@
-from flask import Flask, request, jsonify      
+from flask import Flask, request, jsonify   
+from flask_cors import CORS
 
-app = Flask(__name__)    
+app = Flask(__name__)
+cors = CORS(app)
 
 # Some fake products
 fake_products = [
@@ -90,31 +92,26 @@ fake_products = [
     }
 ]
 
-@app.route("/")                   
-
+@app.route("/")                 
 def welcome():                      
     return "Welcome to the phony products service"  
 
-@app.route("/products")    
-
+@app.route("/products")  
 def products():
     response = jsonify(fake_products)
-    response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-@app.route("/products/moisturizers")    
-
+@app.route("/products/moisturizers")   
 def products_moisturizers():
-
     moisturizing_products = list(filter(lambda product: product['function'] == 'moisturizing', fake_products))
-    return jsonify(moisturizing_products)
+    response = jsonify(moisturizing_products)
+    return response
 
 @app.route("/products/cleansers")    
-
 def products_cleansers():
-
     cleansing_products = list(filter(lambda product: product['function'] == 'cleansing', fake_products))
-    return jsonify(cleansing_products)
+    response = jsonify(cleansing_products)
+    return response
 
 if __name__ == "__main__":        
     app.run()                            # run the flask app

@@ -13,12 +13,13 @@
   });
 
   onMount(async () => {
-    await fetch(api_url.concat('products'))
+    await fetch(api_url.concat('products/moisturizers'))
       .then(r => r.json())
       .then(data => {
         products = data;
       });
   })
+
 </script>
 
 <style>
@@ -67,11 +68,13 @@
 
   <div class="mt-32">
     <h2 class="text-4xl text-center font-serif font-bold pb-8">Moisturizers</h2>
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
+    {#if products}
+      {#each products as product}
+        <Card header={product.brand} title={product.name} subtitle={product.platform}/>
+      {/each}
+    {:else}
+      <p class="loading">Loading...</p>
+    {/if}
   </div>
 
 </div>

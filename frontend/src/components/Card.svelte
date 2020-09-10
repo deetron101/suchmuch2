@@ -1,12 +1,14 @@
 <script>
-  export let title = "title";
-  export let bgimage = "none";
+  export let header = '';
+  export let title = '';
+  export let subtitle = '';
 </script>
 
 <style>
 </style>
 
 <div class="border-solid border-2 relative mb-8">
-    <img src="{bgimage}" alt="{title}"/>
-    <h2 class="text-primary-blue text-3xl font-bold serif text-center absolute w-full -mt-16">{title}</h2>
+    <h2>{header}</h2>
+    <p>{title}</p>
+    <p>{subtitle}</p>
 </div>

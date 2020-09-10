@@ -1,7 +1,24 @@
 <script>
   import Button from '../components/Button.svelte';
   import Card from '../components/Card.svelte';
+  import { stores } from '@sapper/app';
+  import { onMount } from "svelte";
 
+  let api_url = '';
+  let products;
+
+  const { session } = stores();
+  session.subscribe(value => {
+    api_url = value.API_URL;
+  });
+
+  onMount(async () => {
+    await fetch(api_url+'products')
+      .then(r => r.json())
+      .then(data => {
+        products = data;
+      });
+  })
 </script>
 
 <style>

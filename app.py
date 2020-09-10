@@ -98,8 +98,9 @@ def welcome():
 @app.route("/products")    
 
 def products():
-
-    return jsonify(fake_products)
+    response = jsonify(fake_products)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
 
 @app.route("/products/moisturizers")    
 

@@ -13,7 +13,7 @@
   });
 
   onMount(async () => {
-    await fetch(api_url+'products')
+    await fetch(api_url.concat('products'))
       .then(r => r.json())
       .then(data => {
         products = data;
